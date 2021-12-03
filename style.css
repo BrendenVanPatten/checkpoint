@@ -3,13 +3,22 @@
 }
 
 .nav-bar{
+  display: flex;
   background-color: rgb(18, 91, 130);
-  position: fixed;
+  position: sticky;
 }
 
+.background{
+  background-color: black;
+}
+
+.row-3{
+  background-color: rgb(18, 91, 130);
+  height: 25vh;
+}
 
 .row-2{
-  background-color: grey;
+  background-image: url(https://images.unsplash.com/photo-1550684376-efcbd6e3f031?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8NHx8fGVufDB8fHx8&w=1000&q=80);
   height: 60vh;
 }
 
@@ -21,6 +30,7 @@
 .img-1{
   background-image: url(https://cdn.cloudflare.steamstatic.com/steam/apps/1517340/ss_ac05c6f0fa35086a6b29e17b596a7143c7067289.1920x1080.jpg?t=1617678911);
   height: 50vh;
+  border-radius: 1%;
 }
 
 .img-2{
@@ -28,16 +38,49 @@
   height: 55vh;
   background-size: cover;
   background-position: center;
+  border-radius: 2%;
 }
 
 .border{
   border: solid black;
   border-radius: 8%;
 }
+
+.img-3{
+background-image: url(https://media.istockphoto.com/photos/realistic-fiery-explosion-busting-over-a-black-background-picture-id539093422?b=1&k=20&m=539093422&s=170667a&w=0&h=OvSpY0ODlQuflfwX6wdjXY9uek_lGrk4_qw14USP3wU=);
+height: 30vh;
+background-size: cover;
+  background-position: center;
+   border-radius: 6%;
+}
   
+.img-4{
+background-image: url(https://assets.atlasobscura.com/media/W1siZiIsInVwbG9hZHMvYXNzZXRzLzk5YTg4YTM2ZmVkMTM4ZDA0YV80OTI2NTk2ODgwXzMyMWFjNjk1OTJfYi5qcGciXSxbInAiLCJjb252ZXJ0IiwiIl0sWyJwIiwiY29udmVydCIsIi1xdWFsaXR5IDgxIC1hdXRvLW9yaWVudCJdLFsicCIsInRodW1iIiwiNzgweDUyMCMiXV0);
+height: 35vh;
+background-size: cover;
+  background-position: center;
+   border-radius: 6%;
+}
+
+.img-5{
+background-image: url(https://st.depositphotos.com/1064024/1222/i/600/depositphotos_12223707-stock-photo-explosion-of-nuclear-bomb.jpg);
+height: 30vh;
+background-size: cover;
+  background-position: center;
+  border-radius: 6%;
+}
 
 .footer{
   background-color: rgb(45, 42, 42);
   height: 15vh;
+}
+
+.last-img{
+  height: 50vh;
+
+}
+
+@media screen {
+ .background{background-color: black;}
 }
 
