@@ -1,3 +1,8 @@
+.font{
+  font-family: 'Fuzzy Bubbles', cursive;
+font-family: 'Permanent Marker', cursive;
+}
+
 .heading{
   background-color: rgb(18, 91, 130);
 }
@@ -9,12 +14,16 @@
 }
 
 .background{
-  background-color: black;
+  background-color: rgb(102, 94, 94);
+}
+
+.background-2{
+  background-color: rgb(181, 172, 172);;
 }
 
 .row-3{
   background-color: rgb(18, 91, 130);
-  height: 25vh;
+  height: 35vh;
 }
 
 .row-2{
@@ -24,7 +33,7 @@
 
 .main-row{
   background-color: rgb(181, 172, 172);
-  height: 125vh;
+  height: 90vh;
 }
 
 .img-1{
@@ -75,12 +84,27 @@ background-size: cover;
   height: 15vh;
 }
 
+.footer-2{
+  background-color: rgb(45, 42, 42);
+  height: 5vh;
+}
+
 .last-img{
   height: 50vh;
 
 }
 
-@media screen {
- .background{background-color: black;}
+.wrap{
+  display: flex;
 }
 
+@media screen {
+ .wrap{display: flex;}
+}
+
+@media only screen and (max-width: 768px) {
+ .footer{
+  background-color: rgb(45, 42, 42);
+  height: 15vh;
+}
+}
